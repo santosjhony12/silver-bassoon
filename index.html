@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Vegan Day - Saúde e Sabor</title>
+    <style>
+        @font-face {
+            font-family: 'TheNautigal-Bold' ;
+            src: url(TheNautigal-Bold.ttf);
+        }
+        @font-face {
+            font-family:'MPLUSRounded1c-Regular' ;
+            src: url(MPLUSRounded1c-Regular.ttf);
+        }
+        #main {margin-left: 120px;}
+        h1{
+            font-family:'TheNautigal-Bold';
+            color: teal; 
+            font-size: 3em; 
+            font-weight: bold;
+            text-align: center;
+        }
+p {margin: 1cm; 
+    font-family: 'MPLUSRounded1c-Regular';
+text-align: justify;
+    font-size: 1em;
+}
+.color{
+    position: fixed;
+  right: 0;
+  top: 12%;
+  width: 8em;
+  margin-top: -2.5em;
+}
+
+details{
+    margin: 5px;
+    padding: 10px;
+    font-size: large;
+    font-family: 'MPLUSRounded1c-Regular';
+     color: black;
+    background: white;
+    border-radius: 10px;
+    border: 0.1em solid teal;
+}
+#home{
+    font-family: 'MPLUSRounded1c-Regular';
+}
+    </style>
+</head>
+<body>
+<div id="home">
+    
+        
+            <div id="SLIDE_BG" style="width:100%"><div class="w3-center"><img src="logan.png" style="width: 40%"></div></div>
+            
+                <div id="menu-bar" style="margin:1em">
+          <div id="menu" onclick="onClickMenu()">
+              <div id="bar1" class="bar"></div>
+              <div id="bar2" class="bar"></div>
+              <div id="bar3" class="bar"></div>
+          </div>
+          <ul id="nav" class="nav">
+              <li> <a href="#home">Home</a></li>
+              <li> <a href="#quemsomos">Quem somos?</a></li>
+              <li> <a href="#perguntas">Nos conhecendo</a></li>
+              <li> <a href="https://planner5d.com/view?key=0f83c27a170d9482222d6ea3cb00b65" target="_blank">Nosso espaço</a></li>
+              <li> <a href="cardapio.jpg" download="cardapio.jpg" target="_blank">Cardápio</a></li>
+
+         
+
+          </ul>
+      </div>  
+    
+      <div class="menu-bg" id="menu-bg"></div>
+      
+
+    <script src="JS.js"></script></div>
+    
+<div style="margin: 1%; text-align: center;">
+    <div id="quemsomos" data-anime="left">
+           <br><br>
+     <h1>Quem Somos?</h1>
+        <p style="margin: 1cm;text-align: justify;" >
+            VeganDay é uma empresa do ramo alimentício que garante ao cliente certeza de qualidade e
+            uma possível mudança no hábito alimentar e sem qualquer origem animal e também livre de
+            agrotóxicos.
+            Desenvolvido pensando em hábitos mais saudáveis para seu corpo e para o meio ambiente
+            somado com uma dieta rica em nutrientes, buscamos ser uma empresa conhecida como
+            referência na gastronomia brasileira, visando qualidade no atendimento e manter um bom
+            relacionamento com os clientes colaboradores e fornecedores, oferecendo produtos e serviços
+            valorizando aspecto nutritivo, a qualidade, o sabor, a boa elaboração dos pratos para contribuir
+            com a saúde e bem-estar de nossos clientes mantendo um atendimento diversificado.
+            Surgiu do desejo de respeito em todos os níveis e a todas as formas de vida pautando nos
+            preceitos morais, éticos e legais, valorizando a vida mostrando que não precisamos matar ou
+            ferir para atender as necessidades humanas.<br>
+            Foi fundada por Raiane Fraga, Lorraine Nascimento, Jhony Santos, Gabriel Soares, Victor
+            Nobre e Andressa Maria (Administradores), no ano de 2022 tais diretores do estabelecimento e
+            estão acumulando experiência com todos os serviços prestados.<br>Interessadas pela preservação
+            do meio ambiente unindo o desejo de propagar o veganismo fez com que eles iniciassem
+            pesquisas para fabricar uma dieta alternativa a partir de alimentos livres de qualquer crueldade
+            animal, tendo como um dos seus principais pilares a sustentabilidade.</p>
+        
+        </div>
+           
+        
+                    <br><br><br><br>
+                    <div id="especialidades">
+                  <h1>Especialidades</h1>
+                  <p>Nosso restaurante há também aquelas receitas que todo mundo gosta, e é claro que você não pode ficar de fora:</p>
+                 
+                  <div class="modal">
+                    <div class="modal_content">
+                        <img src="fruit.png" id="modal_img">
+                    </div>
+                    <span id="bt_close">&times;</span>
+                </div>
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="card_img">
+                            <img src="fruit.png" class="small_img">
+                        </div>
+                        <div class="card_img">
+                            <img src="carne.png" class="small_img">
+                        </div>
+                        <div class="card_img">
+                            <img src="farofa.png" class="small_img">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="card_img">
+                            <img src="salad.png" class="small_img">
+                        </div>
+                        <div class="card_img">
+                            <img src="hamburguer.png" class="small_img">
+                        </div>
+                        <div class="card_img">
+                            <img src="pizza.png" class="small_img">
+                        </div>
+                    </div>
+                </div>
+                        
+                  
+                </div>
+
+                
+
+
+
+
+                           </div>
+                    
+<br><br><!--termina aqui-->
+<div id="perguntas">
+ <h1  data-anime="left">Nos Conhecendo Um Pouco Mais..</h1>
+<div style="margin: 1%">
+    <br><br>
+    <details>
+        <summary>Por que um restaurante vegano?</summary>
+        <p>R: Porque nós temos a preocupação com o futuro, sabemos que estamos em momentos muito críticos e tivemos a iniciativa de tentar melhorar um pouco nossa situação em relação ao nosso ambiente, e também prezando pela nossa saúde e de nossos clientes, respeitando toda forma de vida existente.</p>
+    </details>
+    <details>
+        <summary>Quais são nossos valores?</summary>
+        <p>R: Valorizar os aspectos nutritivos sem maus-tratos aos animais.</p>
+    </details>
+    <details>
+        <summary>Quais são nossas Metas?</summary>
+        <p>R: Buscando a persona mais próxima do nosso cliente ideal buscamos parceiros que desejam crescer conosco, aumento na demanda de procura pelos nossos serviços, buscamos expandir fisicamente e intelectualmente nosso modo de entregar um produto final de modo a deixar a satisfeito nossos consumidores.</p>
+    </details>
+    <details>
+        <summary>Por que somos os melhores no que fazemos?</summary>
+        <p>R: Além de possuirmos todos os benefícios ao meio ambiente buscamos nos aprofundar sobre o assunto e suas atualidades para trazer a inovação aos nossos clientes tanto no atendimento tanto na hora em que os produtos são servidos, não esquecendo do bom relacionamento com o público.</p>
+    </details>
+    <details>
+        <summary>Impactos no meio ambiente:</summary>
+        <p>R: Além de uma dieta rica em nutrientes, ela ainda possui todos os nutrientes em que o nosso corpo necessita, evita futuros problemas de saúde. O veganismo contribui de forma positiva em relação a destruição de florestas tropicais e outras áreas naturais além de ser responsável por outros impactos ambientais como: impacta na redução da extinção de espécies, erosão do solo escassez e contaminação de aguas, desertificação, poluição orgânica e efeito estufa.
+            <br> <br> <i style="font-style: italic;">“De acordo com a ONU, essa indústria é responsável pelo consumo de 70% da agua disponível. E caso esse consumo fosse reduzido em 10%, seria possível abastecer o dobro da população mundial. Impressionante né?”.</i><br><br>
+              Além de tudo o que vimos adotar o veganismo faz com que reduzimos cerca de 50% de emissão de carbono o veganismo não se limita apenas em proteger os animais contra crueldades, e sim ao combate ao aquecimento global, proteção do meio ambiente e do futuro de toda humanidade.
+              </p>
+    </details>
+    <details>
+        <summary>Sustentabilidade</summary>
+        <p>R: O Vegan Day não é apenas saúde e Sabor ele vai além do esperado é consciência e sustentabilidade utilizamos recursos não prejudiciais ao meio ambiente. 
+            Desenvolvemos um conjunto de ações que condizem com os nossos valores, visando respeito ao meio ambiente e o desenvolvimento sustentável de nossa empresa, gerando qualidade de vida, e rentabilidade sem atividades que causam impactos ao nosso meio.
+                            
+                                <br> <br> <i style="font-style: italic; font-weight: bold;">Unimos os três pilares da sustentabilidade: econômico, social e Ambiental</i>
+                                <br> <br>
+                                Além de não utilizarmos e lucrarmos com quaisquer prática da exploração animal, respeitando assim todas as formas de vida existentes, contribuímos com as seguintes ações:
+                                <br> <br> <i style="font-style: italic; font-weight: bold;">
+                                Gestão de resíduos<br>
+                                Reciclagem<br>
+                                Consumo conciente de energia<br>
+                                Reaproveitamento da água<br>
+                                Coleta seletiva e descarte correto dos resíduos<br>
+                                Investindo em ações de responsabilidade social<br></i>
+                                <br>
+                                O <i style="font-style: italic; font-weight: bold;">Vegan Day</i> preza pelo bem-estar do planeta e para garantir que todos os envolvidos em nossa causa sejam tratados de forma justa. Desenvolvemos também motivações para estabelecer melhor relacionamento com os colaboradores e os clientes buscando adequar o respeito o RS responsabilidade social, englobando as ações voluntárias atuantes em benefício ao nosso público tanto interno quanto externo
+                                 
+                                <br> <br> <i style="font-style: italic; font-weight: bold;">Possuímos selos verdes em todos os nossos produtos pois empregamos ações sustentáveis em nosso processo de produção.</i>
+                                
+                                Nós não vendemos apenas produtos, mas sim a experiência de estar no local com autonomia em fazer o seu próprio pedido consumi-lo e pagá-lo sem nenhum atendimento físico o pagamento é feito por QR code reduzindo a quantidade de papéis e agilizando o processo de compra, e ainda enquanto espera aprende um pouco sobre o consumo consciente e e sustentabilidade em nosso cardápio digital, ainda reservas podem ser feitas para sua mesa favorita.
+                                
+                                Contamos com uma estrutura de alta qualidade para garantir o seu bem-estar com uma construção sustentável para amenizar os impactos a natureza:
+                                <br> <br> <i style="font-style: italic; font-weight: bold;">
+                                Canudos reutilizáveis<br>
+                                Bancadas de paletes<br>
+                                Cardápios digitais<br>
+                                Torneiras com redutores<br>
+                                Otimização racional do espaço e promoções de desenvolvimento sócioambientais<br>
+                                Otimização dos insumos ao reduzir o desperdício de materiais<br>
+                                Cadeiras e mesas de bambu, fibra vegetal contribuindo assim com os artesãos locais incentivando a economia sustentável</i><br><br>
+                                
+                                Contamos ainda com o desenvolvimento da logística reversa toda a nossa água é tratada e retorna para nossa empresa diminuindo assim os impactos ambientais, utilizamos também embalagens retornáveis para melhor experiência de nossos clientes e para que optem por novos hábitos. </p>
+    </details>
+</div>
+    <script>
+        let answers=document.querySelectorAll(".accordion");
+        answers.forEach((event)=>{
+            event.addEventListener('click',()=>{
+                if(event.classList.contains("active")){
+                    event.classList.remove("active");
+                }
+                else{
+                    event.classList.add("active");
+                }
+            })
+        })
+    </script>
+</div>
+           <br><br>
+                
+<div class="rodape"style="background-color: teal; margin:0;"  data-anime="left"><br><br><br><br>
+    <div class="divisao2"><br><br><br><br><br>
+        <h1 style="color:white">Horários de atendimento</h1><br>
+        <ul style="color:white; font-family:  'MPLUSRounded1c-Regular';">
+            <li>Segunda à Quinta: 12 às 15h | 18:30 às 23h</li>
+            <li>Sexta: 12 às 16h | 18:30 às 23h</li>
+            <li>Sábado: 12 às 23h</li>
+            <li>Domingo: 12 às 21h</li>
+            <li>Av. Cel. João de Paula, 343 - Centro, Caçapava - SP, 18326-010</li>
+            <br>
+            <li><i class="fa fa-envelope w3-xlarge"></i> vegandayrestaurant@gmail.com</li>
+            <br><br>
+        </ul><div class="wrapper">
+        <a href="http://wa.me/message/ZWRDNRUUMU7IK1" class="hover-fx" target="_blank"><i class="fa fa-facebook-official w3-text-white w3-xxlarge w3-marginright"></i></a>
+        <a href="http://wa.me/message/ZWRDNRUUMU7IK1" class="hover-fx" target="_blank"><i class="fa fa-instagram w3-text-white w3-xxlarge w3-marginright">  </i></a>
+        <a href="http://wa.me/message/ZWRDNRUUMU7IK1" class="hover-fx" target="_blank"><i class="fa fa-whatsapp w3-text-white w3-xxlarge w3-marginright">  </i></a>
+        <a href="http://wa.me/message/ZWRDNRUUMU7IK1" class="hover-fx" target="_blank"><i class="fa fa-twitter w3-text-white w3-xxlarge w3-marginright">  </i></a>
+        <a href="http://wa.me/message/ZWRDNRUUMU7IK1" class="hover-fx" target="_blank"><i class="fa fa-linkedin w3-text-white w3-xxlarge w3-marginright">  </i></a></div>
+    <br><br><br><br><br>
+        <br><br><br>
+    </div>
+
+</div>
+        
+</body>
+</html>
